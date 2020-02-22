@@ -1,0 +1,98 @@
+/*
+    HOJA DE ESTILO PÁGINA WEB BOOTSTRAP 
+    AUTOR: IVÁN TORRES DE OSES
+    VERSION: 1.1.1          FECHA: 20/02/2020
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ESTILO DE LA NAVBAR*/
+.navTran {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+.logo {
+    margin: 0px;
+    padding: 0px;
+    width: 55px;
+}
+
+.bc-p {
+    background-color: rgba(255, 202, 242, 0.767);
+}
+/* ESTILO DEL HEADER*/
+.h-carousel {
+    height: 50vw;
+}
+
+/* ESTILO DEL MAIN*/
+.secImp {
+    background-color: white;
+    margin: 0px;
+}
+
+.secPar {
+    background-color: rgb(255, 221, 227);
+    margin: 0px;
+}
+.mx-10 {
+
+    margin: 0 20%;
+}
+.btn-pink {
+
+    background-color: rgb(255, 148, 228);
+    color: #ffffff;
+}
+.bg-or {
+
+    background-color: rgba(255, 139, 97, 0.452);
+}
+.text-terms {
+
+    font-size: small;
+}
+.text-superSmall {
+
+    font-size: smaller;
+}
+/* ESTILO DEL FOOTER*/
+.bg-p {
+    background-color: rgb(255, 202, 242);
+}
+.ml-f {
+
+    margin-left: 30%;
+}
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: rgb(0, 0, 0);
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+ /* MEDIA QUERY PARA EL LOGO*/
+@media only screen and (min-width: 500px) {
+
+    .logo {
+
+        width: 70px;
+    }
+}
+@media only screen and (min-width: 800px) {
+
+    .logo {
+
+        width: 80px;
+    }
+}
